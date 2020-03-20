@@ -1,0 +1,30 @@
+{
+  "rules": {
+    "Messages": {
+      "lobby": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      },
+      "$pushid": {
+        "mes": {
+          ".read": "root.child('/Messages/' + $pushid + '/user1').val() == auth.uid || root.child('/Messages/' + $pushid + '/user2').val() == auth.uid",
+          ".write": "root.child('/Messages/' + $pushid + '/user1').val() == auth.uid || root.child('/Messages/' + $pushid + '/user2').val() == auth.uid"
+        },
+        "user1": {
+          ".read": "auth != null",
+          ".write": "auth != null"
+        },
+        "user2": {
+          ".read": "auth != null",
+          ".write": "auth != null"
+        }
+      }
+    },
+    "Users": {
+      ".read": "auth != null",
+      "$uid": {
+        ".write": "$uid == auth.uid"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+body{
+  height: 100vh;
+  background-image: url("../assets/background.jpg");
+
+}
+#inputBar{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 5%;
+}
+
+#inputText{
+  width: 90%;
+}
+#sendBtn{
+  width: 10%;
+}
+
+#mes{
+  height: 95%;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.sender{
+  margin: 5px;
+  border-radius: 5px;
+  padding-right: 10px;
+  text-align: right;
+  background-color: rgb(155, 182, 233);
+}
+
+.receiver{
+  margin: 5px;
+  padding-left: 10px;
+  border-radius: 5px;  
+  text-align: left;
+  background-color: rgb(33, 235, 241);
+}
+#content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 56px);
+}
