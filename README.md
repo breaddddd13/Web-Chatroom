@@ -1,6 +1,4 @@
 # Software Studio 2019 Spring Midterm Project
-## Notice
-* Replace all [xxxx] to your answer
 
 ## Topic
 * Project Name : Chatroom
@@ -14,21 +12,21 @@
     1. Reset password
 
 ## Basic Components
-|Component|Score|Y/N|
-|:-:|:-:|:-:|
-|Membership Mechanism|20%|Y|
-|Firebase Page|5%|Y|
-|Database|15%|Y|
-|RWD|15%|Y|
-|Topic Key Function|15%|Y|
+|Component|
+|:-:|
+|Membership Mechanism|
+|Firebase Page|
+|Database|
+|RWD|
+|Topic Key Function|
 
 ## Advanced Components
-|Component|Score|Y/N|
-|:-:|:-:|:-:|
-|Third-Party Sign In|2.5%|Y|
-|Chrome Notification|5%|Y|
-|Use CSS Animation|2.5%|Y|
-|Security Report|5%|Y|
+|Component|
+|:-:|
+|Third-Party Sign In|
+|Chrome Notification|
+|Use CSS Animation|
+|Security Report|
 
 ## Website Detail Description
 
